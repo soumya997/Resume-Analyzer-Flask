@@ -5,7 +5,7 @@ scikit-learn>=0.23.2
 
 regex==2021.10.8
 Flask==1.1.2
-gunicorn>=19.9.0
+gunicorn==19.9.0
 regex
 spacy==2.3.5
 PyMuPDF==1.18.2
