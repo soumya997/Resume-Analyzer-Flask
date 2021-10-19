@@ -6,6 +6,8 @@ import fitz
 from werkzeug.utils import secure_filename
 import pickle
 import nltk
+from nltk.downloader import download, download_shell 
+nltk.download()
 import numpy as np                                  #for large and multi-dimensional arrays
 import pandas as pd
 from nltk.corpus import stopwords
@@ -15,7 +17,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pdb
 # import logging
 from werkzeug.debug import DebuggedApplication
-from nltk.downloader import download, download_shell 
+
 
 
 # UPLOAD_FOLDER = os.path.dirname(os.path.abspath(__file__)) + '/uploads/'
