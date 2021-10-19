@@ -15,7 +15,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pdb
 # import logging
 from werkzeug.debug import DebuggedApplication
-
+nltk.download()
 
 
 # UPLOAD_FOLDER = os.path.dirname(os.path.abspath(__file__)) + '/uploads/'
