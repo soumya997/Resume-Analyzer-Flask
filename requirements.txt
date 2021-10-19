@@ -3,7 +3,7 @@ numpy==1.18.5
 
 scikit-learn>=0.23.2
 
-
+regex==2021.10.8
 Flask==1.1.2
 gunicorn>=19.9.0
 regex
