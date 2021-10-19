@@ -15,7 +15,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pdb
 # import logging
 from werkzeug.debug import DebuggedApplication
-nltk.download()
+os.system('python3 -m nltk.downloader -d /usr/local/share/nltk_data wordnet')
 
 
 # UPLOAD_FOLDER = os.path.dirname(os.path.abspath(__file__)) + '/uploads/'
