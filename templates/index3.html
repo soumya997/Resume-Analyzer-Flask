@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script> -->
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+      /* .upload-btn-wrapper {
+          position: relative;
+          overflow: hidden;
+          display: inline-block;
+          left: 650px;
+          top: 200px;
+
+        } */
+
+        .btn {
+          position: relative;
+          border: 2px solid gray;
+          color: gray;
+          background-color: white;
+          /* padding: 8px 20px; */
+          border-radius: 8px;
+          font-size: 20px;
+          font-weight: bold;
+          left: 650px;
+          top: 200px;
+        }
+
+        /* .upload-btn-wrapper input[type=file] {
+          font-size: 100px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          opacity: 0;
+        } */
+        .hi{
+          position: absolute;
+          left: 900px;
+          top: 190px;
+
+
+        }
+        .title{
+          position: absolute;
+          left: 700px;
+          top: 100px;
+        }
+        .submit{
+          color: gray;
+          background-color: white;
+          padding: 8px 20px;
+          border-radius: 8px;
+          font-size: 20px;
+          font-weight: bold;
+          position: absolute;
+          left: 1000px;
+          top: 200px;
+        }
+        .bg-light.text-center.text-lg-start{
+          position: relative;
+          left: 0px;
+          top: 870px;
+        }
+        .home{
+          color: gray;
+          background-color: white;
+          padding: 8px 20px;
+          border-radius: 8px;
+          font-size: 20px;
+          font-weight: bold;
+          position: absolute;
+          left: 1700px;
+          top: 10px;
+        }
+        .btn-file {
+          position: relative;
+          overflow: hidden;
+        }
+        .btn-file input[type=file] {
+          position: absolute;
+          top: 0;
+          right: 0;
+          min-width: 100%;
+          min-height: 100%;
+          font-size: 100px;
+          text-align: right;
+          filter: alpha(opacity=0);
+          opacity: 0;
+          outline: none;
+          background: white;
+          cursor: inherit;
+          display: block;
+        }
+        .message{
+          position: absolute;
+          left: 850px;
+          top: 500px;
+        }
+        
+    </style>
+
+  </head>
+
+<body style = "background: linear-gradient(66deg, rgba(2,0,36,1) 0%, rgba(14,29,208,0.738532913165266) 0%, rgba(177,0,255,1) 100%);">
+
+    <h2 class="title">Resume Score Generator🌟</h2>
+    <a href=home ><input class="home" type=submit value=Home></a>
+    <form method="POST" enctype="multipart/form-data">
+      
+      <input class="btn btn-primary btn-file" type="file" name="file" ></input>
+      <input class="submit" lass="submit" type = "submit"></input>
+    </form>
+    <!-- {{message}} -->
+
+      <form class="message">
+        
+            <p class="card-text">{{message}}</p>
+          
+      </form>
+
+      
+
+
+
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgb(7, 194, 207);">
+        Made with ❤ by Soumyadip
+        <a class="text-dark" href="https://github.com/soumya997/Resume-analyzer">Github</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+</body>
